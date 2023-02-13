@@ -49,5 +49,7 @@ foreach($_POST as $_POST){
 }
 
 
+
 ?>
+<br><br><a href="database.php">Database</a>
 </html>
