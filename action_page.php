@@ -34,7 +34,7 @@ echo "<br>";
 /*var_dump($_POST);*/
 /*echo "<p>hello world</p>";*/
 /*print username*/
-/*echo $_POST["fname"];*/
+/*echo $_POST["fname"];
 echo "<br>";
 
 echo "<br>";
@@ -44,12 +44,10 @@ echo '<table border="1" width="200"  >';
 
 foreach($_POST as $_POST){
     echo "<tr><td>";
-    echo "$_POST     <br>";
+    echo "$_POST<br>";
     echo "</td> </tr>";
 }
 
-
-
 ?>
-<br><br><a href="database.php">Database</a>
+<br><br><a href="bieren.php">Database</a>
 </html>
